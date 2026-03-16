@@ -578,7 +578,7 @@ Send
 
 // Initialize EmailJS
 (function(){
-emailjs.init("tqaYSpCCeIYmz-ylP");
+emailjs.init("VgAjEwhJs4XdO3jZD");
 })();
 
 // Form submission
@@ -587,14 +587,14 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 event.preventDefault();
 
 emailjs.sendForm(
-"service_9ac0fi2",
-"template_gs6c6vf",
+"service_mahgmib",
+"template_6qvi1ok",
 this
 )
 .then(function(){
 
 document.getElementById("result-message").innerHTML =
-"Thank you! We will contact you soon.";
+"Thank you! We will contact you soon via your email.";
 
 }, function(error){
 
